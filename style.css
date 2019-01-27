@@ -11,7 +11,6 @@ nav{
 nav ul{
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;	
 	
 	
 }
@@ -37,15 +36,4 @@ section {
 section img {
 	height: 200px;
 	margin-top: 2.5%;
-}
-@media only  screen and (max-width: 400px){
-	nav ul {
-	
-	flex-direction: row;
-
-}
-nav{
-	
-	height: 200px;
-}	
 }
