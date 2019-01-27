@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+
+
 nav{
 	
 	background-color: #042c6d;	
@@ -16,7 +18,7 @@ nav ul{
 	
 }
 nav li{
-	text-decoration: none;
+	
 	list-style-type: none;
 	margin-top: 28px;
 	font-size: 25px;
@@ -33,11 +35,14 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 60px auto;
+
 }
 section img {
 	height: 200px;
 	margin-top: 2.5%;
 }
+
 @media only  screen and (max-width: 400px){
 	nav ul {
 	
@@ -48,4 +53,33 @@ nav{
 	
 	height: 200px;
 }	
+}
+
+footer{
+	background-color: #042c6d;	
+	height: 80px;
+	
+}
+
+footer ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: flex-end;	
+	
+	
+}
+footer li{
+	
+	list-style-type: none;
+	margin-top: 28px;
+	font-size: 25px;
+}
+
+footer a{
+
+	color: white; 	
+	list-style-type: none;
+	text-decoration: none;
+
 }
